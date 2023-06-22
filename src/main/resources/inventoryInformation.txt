@@ -1,0 +1,25 @@
+
+{
+productId:100112142,
+productName:"Crocin 10mg",
+expirtDate:"23 January 2024",
+batchId:"234516",
+productType:"Tablet",
+manuafacture:"Ranbaxy"
+}
+{
+productId:100112142,
+productName:"Crocin 10mg",
+expirtDate:"23 January 2024",
+batchId:"234516",
+productType:"Tablet",
+manuafacture:"Ranbaxy"
+}
+{
+productId:100112142,
+productName:"Crocin 10mg",
+expirtDate:"23 January 2024",
+batchId:"234516",
+productType:"Tablet",
+manuafacture:"Ranbaxy"
+}

@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: inventory-information-application
+spec:
+  selector:
+    matchLabels:
+      app: inventory-information-application
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: inventory-information-application
+    spec:
+      containers:
+        - name: inventory-information-application
+          image: inventory_information_application
+          imagePullPolicy: Never
+          command:
+            - java
+          args:
+              - "-jar"
+              - "/app/target/inventory_information_application.jar"
+#          volumeMounts:
+#              - name: data-vol
+#                mountPath: /app/data
+
+          ports:
+            - containerPort: 8080
+
